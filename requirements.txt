@@ -10,20 +10,16 @@
 #
 # Then use .venv/bin/python to run the various training scripts.
 
-blosc>=1.8.1,<2
-diskcache==4.1.0
-h5py
-jupyter
-matplotlib
-numpy<=1.16.4
-Pillow
-scikit-image>=0.15.0
-scipy
-SimpleITK
-tensorflow>=1.14,<2
 
-# The book was written targeting PyTorch 1.4, but everything in it should work fine with more up-to-date versions.
-torch==1.4
-
-# future is here due to a missing dep in caffe2
-# future
+blosc>=1.8.3,<2
+diskcache>=5.6.1
+h5py>=3.1.0
+jupyterlab>=3.5.0
+matplotlib>=3.5.3
+numpy>=1.21.6
+Pillow>=9.5.0
+scikit-image>=0.20.0
+scipy>=1.8.1
+SimpleITK>=2.2.1
+tensorflow>=2.0
+future
